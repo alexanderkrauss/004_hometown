@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Cantora';
+  src: url('/fonts/CantoraOne-Regular.woff2') format('woff2');
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cantora;
+}
+
+.hero h1 {
+  font-size: 75px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  color: #a9ac8c;
+  margin-top: 0;
+}
+
+.hero p {
+  color: #a9ac8c;
+  font-size: 25px;
+  margin: auto;
+}
+.hero {
+  background-image: url('/images/island_hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height:550px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.39);
+  width: 700px;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.cards-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.img-1 {
+  width: 200px;
+  height: 200px;
+  background-image: url(/images/island_sub_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+
+}
+
+.img-2 {
+  width: 200px;
+  height: 200px;
+  background-image: url(/images/island_sub_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.img-3 {
+  width: 200px;
+  height: 200px;
+  background-image: url(/images/island_sub_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
